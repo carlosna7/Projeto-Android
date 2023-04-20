@@ -114,7 +114,7 @@ main a {
     color: var(--cor3);
     font-weight: bold; 
     background-color: var(--cor0);
-    padding: 2   px;
+    padding: 2px;
 }
 
 main a:hover {
