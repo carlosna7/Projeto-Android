@@ -4,7 +4,7 @@
 
 @font-face {
     font-family:'Android';
-    src: url('/fontes/IDroid.otf') format('opentype');
+    src: url('/fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -21,8 +21,8 @@
     --cor5: #AFAFAF;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue';
-    --fonte-android: 'Android';
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
 
 }
 
@@ -98,13 +98,13 @@ main {
 
 main h1 {
     color: var(--cor3);
-    font-family: var(--fonte-android), 'Android';
+    font-family: 'Android', var(--fonte-android);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor0), transparent);
 }
 
 main h2 {
-    font-family: var(--fonte-android), 'Android';
+    font-family: 'Android', var(--fonte-android);
     color: var(--cor2);
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor0), transparent);
